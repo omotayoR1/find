@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find/getstarted</title>
+    <link href="getstarted.css" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="gridcontainer">
+            <div class="gridholder1">
+                <div class="arrowshift"><a href="landingpage.html"><img src="arrow.svg"></a></div>
+                <div class="logoshift"><img src="find logo 1.png"></div>
+            </div>
+            <div class="infoholder">
+                <div class="headerwid">
+                    <h2>Welcome back!</h2>
+                    <p> login to continue</p>
+                </div>
+                <form>
+                    <div> <!--this container holds all forms items and it's aligned to the flex-end because of the forgot password-->
+                        <div class="flexend"><!--this container holds email address & password input and its aligned to the flex-start-->
+                            <div class="email"><!--this container holds the email address label and password its display set to flex and flex direction of column-->
+                                <label>Email address</label>
+                                <input type="email" name="email" placeholder="Enter your email address">
+                                <div class="emailerror"></div> <!--this container block displays error messages-->
+                            </div>
+                            <div class="password"><!--this conatiner holds the password label and input and its display is same as the email address-->
+                                <label>Password</label>
+                                <input type="password" name="email" placeholder="Enter your password">
+                                <div class="passworderror"></div><!--this container block displays error messages-->
+                            </div>
+                            <div><p class="forgot"><a href="retrieve account.html">Forgot Password</a></p></div>
+                        </div>
+                    </div>
+                    <button type="submit" name="submit">Log in</button>
+                </form>
+                <div><p>Don't have an account yet? <span><a href="getstarted.html">Create Account</a></span></p></div>
+            </div>
+        </div>
+    </section>
+    <script src="getstarted.js"></script>
+</body>
+</html>
+
